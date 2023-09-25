@@ -1,0 +1,22 @@
+{
+  "resources": [
+    {
+      "type": "wingsdk.cloud.TestRunner",
+      "path": "root/cloud.TestRunner",
+      "props": {
+        "tests": {}
+      },
+      "attrs": {}
+    },
+    {
+      "type": "wingsdk.cloud.Website",
+      "path": "root/Default/cloud.Website",
+      "props": {
+        "staticFilesPath": "/home/bronifty/codes/wing/vite-project/dist",
+        "jsonRoutes": {}
+      },
+      "attrs": {}
+    }
+  ],
+  "sdkVersion": "0.33.5"
+}
