@@ -12,11 +12,11 @@
       "type": "wingsdk.cloud.Website",
       "path": "root/Default/cloud.Website",
       "props": {
-        "staticFilesPath": "/home/bronifty/codes/wing/vite-project/dist",
+        "staticFilesPath": "/home/bronifty/codes/wing-react-sqlite/dist",
         "jsonRoutes": {}
       },
       "attrs": {}
     }
   ],
-  "sdkVersion": "0.33.5"
+  "sdkVersion": "0.33.6"
 }

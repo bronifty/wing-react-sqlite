@@ -10,7 +10,7 @@ const port = 8080;
 
 // Initialize a new SQLite database
 const db = await open({
-  filename: "./sql.db",
+  filename: "./dist/sql.db",
   driver: sqlite3.Database,
 });
 
