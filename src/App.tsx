@@ -9,7 +9,7 @@ function App() {
     const fetchData = async () => {
       const hostname = window.location.hostname;
       const port = 8080;
-      const endpoint = "/api/";
+      const endpoint = "/api/messages";
 
       const response = await fetch(`http://${hostname}:${port}${endpoint}`);
       const data = await response.json();
