@@ -1,5 +1,5 @@
-import express from "https://esm.sh/express@4.18.2";
-import cors from "https://esm.sh/cors@2.8.5";
+import express from "express";
+import cors from "cors";
 import sqlite3 from "sqlite3";
 import { open } from "sqlite";
 
